@@ -1,0 +1,35 @@
+nav {
+  background-color: #fbf7e3;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+.large-button {
+  display: flex;
+  font-size: 1.1em;
+  align-items: center;
+}
+nav button {
+  background-color: #f3df85;
+  color: #622607;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border-radius: 25px;
+}
+
+nav button:hover {
+  background-color: #f6d854;
+}
